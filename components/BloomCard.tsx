@@ -19,7 +19,7 @@ const BloomCard: React.FC = () => {
               </h1>
               <div className="max-w-xl">
                 <p className="font-editorial italic text-2xl md:text-3xl text-[#f1e8db] font-light leading-snug [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  A restorative place for mums and babies to grow together in the heart of nature.
+                  A restorative space for mums and babies to grow together in the heart of nature.
                 </p>
               </div>
             </div>
