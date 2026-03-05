@@ -3,12 +3,10 @@ import React, { useEffect, useState } from 'react';
 import BloomCard from './components/BloomCard';
 import FAQPage from './components/FAQPage';
 import AboutPage from './components/AboutPage';
-import SignupForm from './components/SignupForm';
 
 const App: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [showWelcomePopup, setShowWelcomePopup] = useState(false);
-  const [popupSubscribed, setPopupSubscribed] = useState(false);
   const pathname = window.location.pathname.replace(/\/+$/, '') || '/';
   const isFaqPage = pathname === '/faq';
   const isAboutPage = pathname === '/about';
@@ -170,36 +168,30 @@ const App: React.FC = () => {
               <path d="M16 47c13-2 23-12 25-25-13 2-23 12-25 25Z" fill="#7d886d" />
             </svg>
             <p className="font-editorial text-4xl md:text-5xl italic">Welcome to Bloom & Baby</p>
-            <p className="mt-4 text-lg leading-relaxed">
+            <p className="mt-4 text-center text-lg leading-relaxed">
               To celebrate the Spring Equinox, join us for a
               <span className="mt-2 block text-center font-editorial text-4xl leading-tight text-[#2f4a38] md:text-5xl">
                 <span className="block">Wild Garlic Walk <span className="italic">&</span></span>
                 <span className="block">Free Taster Session</span>
               </span>
               <span className="mt-2 block text-center font-editorial text-2xl italic md:text-3xl">March 23rd</span>
-              <span className="mt-1 block">Pop your email below to reserve your place.</span>
             </p>
-
-            <div className="mt-7">
-              {!popupSubscribed ? (
-                <SignupForm
-                  onComplete={() => setPopupSubscribed(true)}
-                  submitLabel="Reserve your place"
-                  loadingLabel="Submitting..."
-                  placeholder="Your email address"
-                  className="max-w-full"
-                  tone="dark"
-                />
-              ) : (
-                <p className="text-lg font-editorial italic">Thanks. You&apos;re on the list.</p>
-              )}
+            <div className="mt-4 flex justify-center">
+              <a
+                href="https://BloomandBabyWildGarlicWalk.eventbrite.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center border border-[#1f3527]/90 bg-[#2f4a38] px-5 py-2 font-editorial text-2xl italic text-[#f7f4ec] transition hover:bg-[#254031]"
+              >
+                Reserve your place here.
+              </a>
             </div>
 
-            <div className="mt-8 flex flex-col sm:flex-row gap-3">
+            <div className="mt-8 flex justify-center">
               <button
                 type="button"
                 onClick={() => setShowWelcomePopup(false)}
-                className="inline-flex items-center justify-center border border-stone-200/70 px-6 py-3 font-editorial text-2xl italic text-[#f7f4ec] transition hover:bg-white/10"
+                className="inline-flex items-center justify-center border border-stone-200/70 px-3 py-1.5 font-editorial text-lg italic text-[#f7f4ec] transition hover:bg-white/10"
               >
                 Continue to site
               </button>
