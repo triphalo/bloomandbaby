@@ -6,18 +6,9 @@ import AboutPage from './components/AboutPage';
 
 const App: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [showWelcomePopup, setShowWelcomePopup] = useState(false);
   const pathname = window.location.pathname.replace(/\/+$/, '') || '/';
   const isFaqPage = pathname === '/faq';
   const isAboutPage = pathname === '/about';
-
-  useEffect(() => {
-    if (pathname === '/') {
-      setShowWelcomePopup(true);
-    } else {
-      setShowWelcomePopup(false);
-    }
-  }, [pathname]);
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -141,64 +132,6 @@ const App: React.FC = () => {
         {isFaqPage ? <FAQPage /> : isAboutPage ? <AboutPage /> : <BloomCard />}
       </main>
 
-      {showWelcomePopup && !isFaqPage && !isAboutPage && (
-        <div
-          className="fixed inset-0 z-[60] bg-black/55 flex items-center justify-center px-6"
-          onClick={() => setShowWelcomePopup(false)}
-          role="presentation"
-        >
-          <div
-            className="relative w-full max-w-xl border-4 border-[#2f4a38] bg-[#7d886d] text-[#f7f4ec] shadow-2xl p-8 md:p-10"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <svg aria-hidden="true" viewBox="0 0 64 64" className="absolute left-2 top-2 h-8 w-8 text-[#2f4a38]">
-              <path d="M10 52c20-2 36-18 42-42C32 12 12 32 10 52Z" fill="currentColor" />
-              <path d="M16 47c13-2 23-12 25-25-13 2-23 12-25 25Z" fill="#7d886d" />
-            </svg>
-            <svg aria-hidden="true" viewBox="0 0 64 64" className="absolute right-2 top-2 h-8 w-8 rotate-90 text-[#2f4a38]">
-              <path d="M10 52c20-2 36-18 42-42C32 12 12 32 10 52Z" fill="currentColor" />
-              <path d="M16 47c13-2 23-12 25-25-13 2-23 12-25 25Z" fill="#7d886d" />
-            </svg>
-            <svg aria-hidden="true" viewBox="0 0 64 64" className="absolute bottom-2 left-2 h-8 w-8 -rotate-90 text-[#2f4a38]">
-              <path d="M10 52c20-2 36-18 42-42C32 12 12 32 10 52Z" fill="currentColor" />
-              <path d="M16 47c13-2 23-12 25-25-13 2-23 12-25 25Z" fill="#7d886d" />
-            </svg>
-            <svg aria-hidden="true" viewBox="0 0 64 64" className="absolute bottom-2 right-2 h-8 w-8 rotate-180 text-[#2f4a38]">
-              <path d="M10 52c20-2 36-18 42-42C32 12 12 32 10 52Z" fill="currentColor" />
-              <path d="M16 47c13-2 23-12 25-25-13 2-23 12-25 25Z" fill="#7d886d" />
-            </svg>
-            <p className="font-editorial text-4xl md:text-5xl italic">Welcome to Bloom & Baby</p>
-            <p className="mt-4 text-center text-lg leading-relaxed">
-              To celebrate the Spring Equinox, join us for a
-              <span className="mt-2 block text-center font-editorial text-4xl leading-tight text-[#2f4a38] md:text-5xl">
-                <span className="block">Wild Garlic Walk <span className="italic">&</span></span>
-                <span className="block">Free Taster Session</span>
-              </span>
-              <span className="mt-2 block text-center font-editorial text-2xl italic md:text-3xl">March 23rd</span>
-            </p>
-            <div className="mt-4 flex justify-center">
-              <a
-                href="https://BloomandBabyWildGarlicWalk.eventbrite.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center border border-[#1f3527]/90 bg-[#2f4a38] px-5 py-2 font-editorial text-2xl italic text-[#f7f4ec] transition hover:bg-[#254031]"
-              >
-                Reserve your place here.
-              </a>
-            </div>
-
-            <div className="mt-8 flex justify-center">
-              <button
-                type="button"
-                onClick={() => setShowWelcomePopup(false)}
-                className="inline-flex items-center justify-center border border-stone-200/70 px-3 py-1.5 font-editorial text-lg italic text-[#f7f4ec] transition hover:bg-white/10"
-              >
-                Continue to site
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

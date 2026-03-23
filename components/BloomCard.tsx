@@ -144,6 +144,16 @@ const BloomCard: React.FC = () => {
           </div>
         </div>
 
+        <section className="w-full max-w-5xl mx-auto pt-24 pb-24">
+          <div className="space-y-6 text-center">
+            <p className="text-[#d9c8b1] uppercase tracking-widest text-xs">Testimonial</p>
+            <blockquote className="font-editorial text-3xl md:text-4xl text-[#f6efe4] italic leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
+              “Sheena&apos;s sessions are like a warm hug. Calming and restorative, you come away feeling like you have been nurtured. Held in the most beautiful setting, the relaxed environment Sheena has created allows for honest and open conversations among the mothers in attendance. The wholesome baby class that I have been searching for. Thank you.”
+            </blockquote>
+            <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Sian, mother of two</p>
+          </div>
+        </section>
+
         <footer className="w-full max-w-7xl mx-auto pt-48 pb-12">
           <div className="flex flex-col md:flex-row justify-between items-end gap-12">
             <div className="space-y-8">
