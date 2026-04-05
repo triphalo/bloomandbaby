@@ -17,8 +17,8 @@ const faqItems: FAQItem[] = [
   },
   {
     question: 'When do sessions run?',
-    intro: 'Spring Term 1 session is currently running:',
-    bullets: ['Mondays and Fridays', '10:30 to 12:00'],
+    intro: 'Spring Term 2 sessions are running:',
+    bullets: ['Mondays and Tuesdays', '10:30 to 12:00'],
     paragraphs: [
       'To begin with, each session is limited to 6 mums to keep the space calm and supportive.',
       'Information about future terms will be released closer to the time.',
@@ -35,9 +35,10 @@ const faqItems: FAQItem[] = [
   {
     question: 'How much does it cost?',
     bullets: [
-      '£20 per single drop-in session.',
-      '£66 for the first 4-week Spring Term (save £14).',
-      '£100 for the 2nd 6-week Spring Term (save £20).',
+      '£20 for a drop-in session',
+      '£72 for a 4 Session bundle',
+      '£87.50 for a 5 Session bundle',
+      '£102 for a 6 Session bundle',
     ],
     paragraphs: ['You can attend single sessions or commit to the term. Both options are welcome.'],
   },

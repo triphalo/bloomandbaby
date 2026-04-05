@@ -35,19 +35,37 @@ const BloomCard: React.FC = () => {
                 </p>
               </div>
               
-              <div className="w-full max-w-md self-start md:-mt-2">
-                <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Spring Term 1</p>
+              <div className="w-full max-w-md self-start md:-mt-14">
+                <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Spring Term 2</p>
                 <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  Ready to join us? Reserve your place for upcoming Bloom & Baby sessions.
+                  Ready to join us? Reserve your space for the upcoming Bloom & Baby sessions.
                 </p>
-                <a
-                  href="https://www.eventbrite.co.uk/e/bloom-baby-spring-term-1-tickets-1982002945163"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 inline-flex w-full items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-6 py-4 font-editorial text-2xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
-                >
-                  Reserve a Place
-                </a>
+                <div className="mt-5">
+                  <div className="tt-widget">
+                    <div className="tt-widget-fallback">
+                      <p>
+                        <a
+                          href="https://www.tickettailor.com/all-tickets/bloombaby/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
+                        >
+                          Reserve your space
+                        </a>
+                      </p>
+                    </div>
+                    <script
+                      src="https://cdn.tickettailor.com/js/widgets/min/widget.js"
+                      data-url="https://www.tickettailor.com/all-tickets/bloombaby/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true"
+                      data-type="inline"
+                      data-inline-minimal="true"
+                      data-inline-show-logo="false"
+                      data-inline-bg-fill="false"
+                      data-inline-inherit-ref-from-url-param=""
+                      data-inline-ref="website_widget"
+                    ></script>
+                  </div>
+                </div>
 
                 <div className="mt-10 border-t border-stone-200/30 pt-8">
                   <p className="font-editorial text-2xl italic text-[#fcf7ef] leading-snug [text-shadow:0_2px_10px_rgba(0,0,0,0.3)]">
@@ -111,9 +129,10 @@ const BloomCard: React.FC = () => {
       <section className="min-h-[80vh] flex items-center justify-center px-8 py-32">
         <div className="max-w-5xl w-full text-center space-y-12">
           <div className="w-px h-24 bg-gradient-to-b from-transparent to-stone-200/60 mx-auto"></div>
-          <h2 className="font-editorial text-4xl md:text-6xl lg:text-7xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
-            "A space to be creative, connect with other local mums, and take part in something that nurtures you, not just your baby."
-          </h2>
+          <blockquote className="font-editorial text-2xl md:text-4xl lg:text-5xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
+            “Sheena&apos;s sessions are like a warm hug. Calming and restorative, you come away feeling like you have been nurtured. Held in the most beautiful setting, the relaxed environment Sheena has created allows for honest and open conversations among the mothers in attendance. The wholesome baby class that I have been searching for. Thank you.”
+          </blockquote>
+          <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Sian, mother of two</p>
           <div className="w-px h-24 bg-gradient-to-t from-transparent to-stone-200/60 mx-auto"></div>
         </div>
       </section>
@@ -139,20 +158,7 @@ const BloomCard: React.FC = () => {
             </div>
           </div>
 
-          <div className="hidden lg:block">
-            <p className="font-editorial text-[14rem] text-stone-200/20 pointer-events-none select-none italic text-right">Bloom</p>
-          </div>
         </div>
-
-        <section className="w-full max-w-5xl mx-auto pt-24 pb-24">
-          <div className="space-y-6 text-center">
-            <p className="text-[#d9c8b1] uppercase tracking-widest text-xs">Testimonial</p>
-            <blockquote className="font-editorial text-3xl md:text-4xl text-[#f6efe4] italic leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-              “Sheena&apos;s sessions are like a warm hug. Calming and restorative, you come away feeling like you have been nurtured. Held in the most beautiful setting, the relaxed environment Sheena has created allows for honest and open conversations among the mothers in attendance. The wholesome baby class that I have been searching for. Thank you.”
-            </blockquote>
-            <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Sian, mother of two</p>
-          </div>
-        </section>
 
         <footer className="w-full max-w-7xl mx-auto pt-48 pb-12">
           <div className="flex flex-col md:flex-row justify-between items-end gap-12">
