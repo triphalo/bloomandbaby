@@ -78,7 +78,7 @@ const AboutPage: React.FC = () => {
                   achievable moments could restore confidence.
                 </p>
                 <p className="text-lg leading-relaxed text-[#f1e7da] [text-shadow:0_2px_9px_rgba(0,0,0,0.28)]">
-                  If your baby needs feeding, settling, or just a cuddle, they will not miss out. Activities are designed
+                  If your baby needs feeding, settling, or just a cuddle, you will not miss out. Activities are designed
                   to be flexible and can be enjoyed at the mother&apos;s own pace, without a strict routine.
                 </p>
               </div>
