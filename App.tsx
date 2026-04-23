@@ -31,6 +31,21 @@ const App: React.FC = () => {
       ? '/Bouquets.jpeg'
       : '/Gentle%20Gardening%20Image%20Jan%2019%202026.jpeg';
 
+  const baseOverlayOpacity = isAboutPage ? '0.42' : '0.34';
+  const readingLaneBackground = isAboutPage
+    ? `
+      linear-gradient(to bottom, rgba(252, 248, 239, 0.08) 0%, rgba(29, 23, 16, 0.30) 45%, rgba(26, 20, 14, 0.40) 100%),
+      radial-gradient(ellipse at center, transparent 0%, transparent 42%, rgba(0, 0, 0, 0.26) 78%, rgba(0, 0, 0, 0.46) 100%),
+      radial-gradient(ellipse at top, rgba(0, 0, 0, 0.30) 0%, transparent 56%),
+      radial-gradient(ellipse at bottom, rgba(0, 0, 0, 0.38) 0%, transparent 56%)
+    `
+    : `
+      linear-gradient(to bottom, rgba(252, 248, 239, 0.12) 0%, rgba(29, 23, 16, 0.22) 45%, rgba(26, 20, 14, 0.30) 100%),
+      radial-gradient(ellipse at center, transparent 0%, transparent 45%, rgba(0, 0, 0, 0.20) 78%, rgba(0, 0, 0, 0.38) 100%),
+      radial-gradient(ellipse at top, rgba(0, 0, 0, 0.24) 0%, transparent 56%),
+      radial-gradient(ellipse at bottom, rgba(0, 0, 0, 0.30) 0%, transparent 56%)
+    `;
+
   return (
     <div className="relative min-h-screen w-full">
       {/* Fixed Full-Bleed Background Overlaying the whole viewport */}
@@ -51,7 +66,7 @@ const App: React.FC = () => {
         }}
       >
         {/* Lighter warm overlay for less visual heaviness */}
-        <div className="absolute inset-0 bg-[#4b3f2e] opacity-[0.34] mix-blend-multiply"></div>
+        <div className="absolute inset-0 mix-blend-multiply" style={{ backgroundColor: '#4b3f2e', opacity: baseOverlayOpacity }}></div>
         
         {/* Organic Texture Overlay */}
         <div 
@@ -65,12 +80,7 @@ const App: React.FC = () => {
         <div 
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: `
-              linear-gradient(to bottom, rgba(252, 248, 239, 0.12) 0%, rgba(29, 23, 16, 0.22) 45%, rgba(26, 20, 14, 0.30) 100%),
-              radial-gradient(ellipse at center, transparent 0%, transparent 45%, rgba(0, 0, 0, 0.20) 78%, rgba(0, 0, 0, 0.38) 100%),
-              radial-gradient(ellipse at top, rgba(0, 0, 0, 0.24) 0%, transparent 56%),
-              radial-gradient(ellipse at bottom, rgba(0, 0, 0, 0.30) 0%, transparent 56%)
-            `
+            background: readingLaneBackground
           }}
         ></div>
       </div>
