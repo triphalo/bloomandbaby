@@ -4,9 +4,41 @@ import SignupForm from './SignupForm';
 
 const BloomCard: React.FC = () => {
   const [isSubscribed, setIsSubscribed] = useState(false);
+  const [showWildflowerPopup, setShowWildflowerPopup] = useState(true);
 
   return (
     <div className="flex flex-col w-full text-[#fcfbf7]">
+      {showWildflowerPopup && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/45 px-6 py-10">
+          <div className="relative w-full max-w-xl border border-[#d9c8b1]/45 bg-[#f5ecde] px-8 py-10 text-[#2f271f] shadow-[0_24px_80px_rgba(0,0,0,0.35)] animate-in fade-in zoom-in-95 duration-300">
+            <button
+              type="button"
+              aria-label="Close wildflower walk announcement"
+              onClick={() => setShowWildflowerPopup(false)}
+              className="absolute right-4 top-4 rounded-full border border-[#9f8663]/35 px-3 py-1 text-sm text-[#5b4a39] transition hover:bg-[#ead9bf]"
+            >
+              Close
+            </button>
+            <p className="text-xs uppercase tracking-[0.35em] text-[#8b765b]">Special Event</p>
+            <h2 className="mt-4 max-w-lg text-center font-editorial text-4xl font-light leading-tight text-[#2f271f] md:text-5xl">
+              Bloom & Baby
+              <br />
+              Wildflower Walk
+            </h2>
+            <p className="mt-5 text-lg leading-relaxed text-[#4b3f32] md:text-xl">
+              Come and join us for a beautiful wildflower walk down country lanes on the 27th and 28th of April, 10am to 12 pm. We shall also be collecting and creating wild garlic flower pickle.
+            </p>
+            <a
+              href="https://buytickets.at/bloombaby/2182448"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-7 inline-flex items-center justify-center border border-[#8b765b] bg-[#7d886d] px-6 py-3 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
+            >
+              Click here to reserve your place
+            </a>
+          </div>
+        </div>
+      )}
       
       {/* Section 1: Hero - Full Screen Typography */}
       <section className="min-h-screen flex flex-col justify-center px-8 md:px-24 lg:px-48 py-24">
