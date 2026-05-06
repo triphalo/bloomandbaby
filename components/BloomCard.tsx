@@ -35,9 +35,12 @@ const BloomCard: React.FC = () => {
               </div>
               
               <div className="w-full max-w-md self-start md:-mt-14">
-                <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Spring Term 2</p>
+                <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Summer Term 1</p>
+                <p className="mt-2 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
+                  Sessions run from June 1st to July 7th.
+                </p>
                 <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  Ready to join us? Reserve your space for the upcoming Bloom & Baby sessions.
+                  Ready to join us? Reserve your space here:
                 </p>
                 <div className="mt-5">
                   <div className="tt-widget">
