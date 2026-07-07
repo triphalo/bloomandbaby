@@ -37,7 +37,7 @@ const BloomCard: React.FC = () => {
               <div className="w-full max-w-md self-start md:-mt-14">
                 <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Summer Term 2</p>
                 <p className="mt-2 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  Sessions run from June 1st to July 7th.
+                  Sessions run from July 13th through to August 25th.
                 </p>
                 <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
                   Ready to join us? Reserve your space here:
