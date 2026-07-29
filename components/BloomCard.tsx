@@ -18,16 +18,16 @@ const BloomCard: React.FC = () => {
               </h1>
               <div className="max-w-xl">
                 <p className="font-editorial italic text-2xl md:text-3xl text-[#f1e8db] font-light leading-snug [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  A restorative space for mums and babies to grow together in the heart of nature.
+                  A restorative space for parents and babies to grow together in the heart of nature.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row md:items-start justify-between gap-16">
               <div className="space-y-8 max-w-lg text-[#f2eadf] text-xl md:text-2xl leading-relaxed font-light [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                <p>Bloom & Baby is a nurturing community for mums and their babies.</p>
+                <p>Bloom & Baby is a nurturing community for parents and their babies.</p>
                 <p>
-                  Designed for early motherhood, when babies are small enough to rest, be carried, or explore close by.
+                  Designed for early parenthood, when babies are small enough to rest, be carried, or explore close by.
                 </p>
                 <p>
                   Sessions run on Monday and Tuesday mornings just outside of Bath, offering a calm weekly pause to reset and support wellbeing.
@@ -113,7 +113,7 @@ const BloomCard: React.FC = () => {
           <div className="grid gap-12 border-l border-stone-200/30 pl-12">
             {[
               { title: "Nature's Rhythm", desc: "Simple gardening and nature-based activities tailored for the seasons." },
-              { title: "Mindful Moments", desc: "Gentle mindfulness and wellbeing practices designed for new motherhood." },
+              { title: "Mindful Moments", desc: "Gentle mindfulness and wellbeing practices designed for new parenthood." },
               { title: "Sensory Play", desc: "Quiet, natural sensory exploration for babies in a calm environment." },
               { title: "Connection", desc: "A warming cuppa, nourishing treats, and time for honest conversation." }
             ].map((item, i) => (
@@ -157,14 +157,14 @@ const BloomCard: React.FC = () => {
               <blockquote className="font-editorial text-2xl md:text-3xl lg:text-4xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
                 “I&apos;ve been to quite a few different mum and baby groups, but this is very different. It&apos;s such a lovely, relaxed space where there&apos;s no pressure to do anything or be anywhere on time. You can just turn up exactly as you are, have a hot coffee and some delicious cake. It feels really mindful without being forced, and everyone is so welcoming. I always leave feeling calmer, refreshed, and so glad I came. It&apos;s honestly a highlight of my week.”
               </blockquote>
-              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Amber, first time mum</p>
+              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Amber, first-time mum</p>
             </div>
 
             <div className="space-y-6 border-t border-stone-200/25 pt-12">
               <blockquote className="font-editorial text-2xl md:text-3xl lg:text-4xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
                 “Bloom and Baby is 100% my favourite mums group. Each week at the end of the session, I fill up my car boot with pots of plants or seeds, or things we&apos;ve made — whether that&apos;s elderflower cordial picked from the hedgerows or bath and kitchen salts filled with herbs we&apos;ve dried. I always come away calmer and happier after spending the morning surrounded by herbs and roses overlooking a picturesque valley or walking through the lanes foraging for wild flowers and garlic. My daughter sits and plays outside whilst we pot plants, chat and eat Sheena&apos;s delicious and healthy cakes. This is a lovely, gentle and kind community where you can be a complete newbie like me or an expert like some of the other mums.”
               </blockquote>
-              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Sophie, first time mum</p>
+              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Sophie, first-time mum</p>
             </div>
 
             <div className="space-y-6 border-t border-stone-200/25 pt-12">
