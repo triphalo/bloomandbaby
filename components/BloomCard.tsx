@@ -131,10 +131,49 @@ const BloomCard: React.FC = () => {
       <section className="min-h-[80vh] flex items-center justify-center px-8 py-32">
         <div className="max-w-5xl w-full text-center space-y-12">
           <div className="w-px h-24 bg-gradient-to-b from-transparent to-stone-200/60 mx-auto"></div>
-          <blockquote className="font-editorial text-2xl md:text-4xl lg:text-5xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
-            “Sheena&apos;s sessions are like a warm hug. Calming and restorative, you come away feeling like you have been nurtured. Held in the most beautiful setting, the relaxed environment Sheena has created allows for honest and open conversations among the mothers in attendance. The wholesome baby class that I have been searching for. Thank you.”
-          </blockquote>
-          <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Sian, mother of two</p>
+          <div className="space-y-14">
+            <div className="space-y-6">
+              <blockquote className="font-editorial text-2xl md:text-4xl lg:text-5xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
+                “Sheena&apos;s sessions are like a warm hug. Calming and restorative, you come away feeling like you have been nurtured. Held in the most beautiful setting, the relaxed environment Sheena has created allows for honest and open conversations among the mothers in attendance. The wholesome baby class that I have been searching for. Thank you.”
+              </blockquote>
+              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Sian, mother of two</p>
+            </div>
+
+            <div className="space-y-6 border-t border-stone-200/25 pt-12">
+              <blockquote className="font-editorial text-2xl md:text-3xl lg:text-4xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
+                “Bloom and Baby has turned into my favourite baby group. Sheena&apos;s place is lovely and calming, with the activity being engaging. It&apos;s lovely getting to bring something home most sessions, plus the baked goods and coffee are always delicious.”
+              </blockquote>
+              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Ciara, mum of two</p>
+            </div>
+
+            <div className="space-y-6 border-t border-stone-200/25 pt-12">
+              <blockquote className="font-editorial text-2xl md:text-3xl lg:text-4xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
+                “Out of all the groups I&apos;ve tried with my baby, Bloom and Baby is the one I most look forward to. It is so nice meeting outside in a beautiful setting, having good conversation, fun with the babies, interesting gardening activities, delicious cake and something to take home and grow on at the end of each session. I&apos;ve met lots of other lovely mums and Sheena is wonderful. So caring, and she creates a peaceful, calm atmosphere where you can relax. I think the babies also appreciate getting outside and in the fresh air.”
+              </blockquote>
+              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Fiona, mother of two</p>
+            </div>
+
+            <div className="space-y-6 border-t border-stone-200/25 pt-12">
+              <blockquote className="font-editorial text-2xl md:text-3xl lg:text-4xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
+                “I&apos;ve been to quite a few different mum and baby groups, but this is very different. It&apos;s such a lovely, relaxed space where there&apos;s no pressure to do anything or be anywhere on time. You can just turn up exactly as you are, have a hot coffee and some delicious cake. It feels really mindful without being forced, and everyone is so welcoming. I always leave feeling calmer, refreshed, and so glad I came. It&apos;s honestly a highlight of my week.”
+              </blockquote>
+              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Amber, first time mum</p>
+            </div>
+
+            <div className="space-y-6 border-t border-stone-200/25 pt-12">
+              <blockquote className="font-editorial text-2xl md:text-3xl lg:text-4xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
+                “Bloom and Baby is 100% my favourite mums group. Each week at the end of the session, I fill up my car boot with pots of plants or seeds, or things we&apos;ve made — whether that&apos;s elderflower cordial picked from the hedgerows or bath and kitchen salts filled with herbs we&apos;ve dried. I always come away calmer and happier after spending the morning surrounded by herbs and roses overlooking a picturesque valley or walking through the lanes foraging for wild flowers and garlic. My daughter sits and plays outside whilst we pot plants, chat and eat Sheena&apos;s delicious and healthy cakes. This is a lovely, gentle and kind community where you can be a complete newbie like me or an expert like some of the other mums.”
+              </blockquote>
+              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Sophie, first time mum</p>
+            </div>
+
+            <div className="space-y-6 border-t border-stone-200/25 pt-12">
+              <blockquote className="font-editorial text-2xl md:text-3xl lg:text-4xl text-[#f8f1e6] font-light tracking-tight italic leading-tight [text-shadow:0_3px_12px_rgba(0,0,0,0.35)]">
+                “I come away from Sheena&apos;s sessions feeling calm, nourished and held. It&apos;s not only a space to learn and create but also to release tension and connect with other mums in a beautiful setting. Sheena&apos;s bakes are also so delicious! Her classes have truly been a highlight of my week and I will miss them when my mat leave is over.”
+              </blockquote>
+              <p className="text-[#eadccc] text-sm uppercase tracking-[0.3em]">Frankie, mother of two</p>
+            </div>
+          </div>
           <div className="w-px h-24 bg-gradient-to-t from-transparent to-stone-200/60 mx-auto"></div>
         </div>
       </section>
