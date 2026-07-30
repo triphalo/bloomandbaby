@@ -18,16 +18,16 @@ const BloomCard: React.FC = () => {
               </h1>
               <div className="max-w-xl">
                 <p className="font-editorial italic text-2xl md:text-3xl text-[#f1e8db] font-light leading-snug [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  A restorative space for parents and babies to grow together in the heart of nature.
+                  A restorative space for mums and babies to grow together in the heart of nature.
                 </p>
               </div>
             </div>
 
             <div className="flex flex-col md:flex-row md:items-start justify-between gap-16">
               <div className="space-y-8 max-w-lg text-[#f2eadf] text-xl md:text-2xl leading-relaxed font-light [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                <p>Bloom & Baby is a nurturing community for parents and their babies.</p>
+                <p>Bloom & Baby is a nurturing community for mums and their babies.</p>
                 <p>
-                  Designed for early parenthood, when babies are small enough to rest, be carried, or explore close by.
+                  Designed for early motherhood, when babies are small enough to rest, be carried, or explore close by.
                 </p>
                 <p>
                   Sessions run on Monday and Tuesday mornings just outside of Bath, offering a calm weekly pause to reset and support wellbeing.
@@ -113,7 +113,7 @@ const BloomCard: React.FC = () => {
           <div className="grid gap-12 border-l border-stone-200/30 pl-12">
             {[
               { title: "Nature's Rhythm", desc: "Simple gardening and nature-based activities tailored for the seasons." },
-              { title: "Mindful Moments", desc: "Gentle mindfulness and wellbeing practices designed for new parenthood." },
+              { title: "Mindful Moments", desc: "Gentle mindfulness and wellbeing practices designed for new motherhood." },
               { title: "Sensory Play", desc: "Quiet, natural sensory exploration for babies in a calm environment." },
               { title: "Connection", desc: "A warming cuppa, nourishing treats, and time for honest conversation." }
             ].map((item, i) => (

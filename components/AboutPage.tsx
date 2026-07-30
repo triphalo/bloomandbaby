@@ -9,7 +9,7 @@ const AboutPage: React.FC = () => {
             <p className="font-editorial text-lg italic text-[#eadcc6] [text-shadow:0_1px_8px_rgba(0,0,0,0.3)]">Bloom & Baby</p>
             <h1 className="mt-3 font-editorial text-5xl font-light text-[#fdf8ef] md:text-7xl [text-shadow:0_2px_12px_rgba(0,0,0,0.35)]">About Bloom & Baby</h1>
             <p className="mt-4 max-w-2xl text-lg text-[#f4ede2] md:text-xl [text-shadow:0_2px_10px_rgba(0,0,0,0.3)]">
-              A gentle, nature-led space for parental wellbeing, connection, and calm.
+              A gentle, nature-led space for maternal wellbeing, connection, and calm.
             </p>
           </div>
           <a
@@ -23,11 +23,11 @@ const AboutPage: React.FC = () => {
         <section className="grid gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
           <div className="space-y-7">
             <p className="font-editorial text-2xl italic text-[#f7f1e6] md:text-3xl [text-shadow:0_2px_10px_rgba(0,0,0,0.32)]">
-              Hello, I&apos;m Sheena - a parent of two young boys and the founder of Bloom & Baby.
+              Hello, I&apos;m Sheena - a mum of two young boys and the founder of Bloom & Baby.
             </p>
             <p className="text-lg leading-relaxed text-[#f1e7da] [text-shadow:0_2px_9px_rgba(0,0,0,0.28)]">
-              After many years living in London, I now call Bath home. Like so many parents, I found the transition
-              into early parenthood far more complex than I expected. It was beautiful and joyful, yes, but also
+              After many years living in London, I now call Bath home. Like so many mothers, I found the transition
+              into early motherhood far more complex than I expected. It was beautiful and joyful, yes, but also
               overwhelming, isolating, and at times incredibly hard. I experienced postnatal anxiety and often felt as
               though I was constantly trying to keep my head above water.
             </p>
@@ -38,7 +38,7 @@ const AboutPage: React.FC = () => {
             </p>
             <p className="text-lg leading-relaxed text-[#f1e7da] [text-shadow:0_2px_9px_rgba(0,0,0,0.28)]">
               Being outdoors had a real impact on my mental wellbeing and gave me moments of calm within the chaos of
-              parenthood - moments where I could reconnect with myself, not just my role as a parent.
+              motherhood - moments where I could reconnect with myself, not just my role as a mum.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ const AboutPage: React.FC = () => {
             <figure className="animate-in fade-in slide-in-from-left-12 duration-1000">
               <img
                 src="/Nikita.jpeg"
-                alt="Parent and baby moment in nature"
+                alt="Mother and baby moment in nature"
                 className="h-auto w-full border-4 border-white object-cover shadow-2xl"
               />
             </figure>
@@ -66,20 +66,20 @@ const AboutPage: React.FC = () => {
               </h2>
               <div className="mt-6 space-y-5">
                 <p className="text-lg leading-relaxed text-[#f1e7da] [text-shadow:0_2px_9px_rgba(0,0,0,0.28)]">
-                  When I looked around Bath for parent-and-baby groups, I noticed that many were focused almost entirely on
+                  When I looked around Bath for mum-and-baby groups, I noticed that many were focused almost entirely on
                   the baby - often busy, noisy, or centred around milestones and stimulation. What I could not find much
-                  of was a space that truly centred parents&apos; wellbeing (aside from some lovely postnatal yoga classes).
+                  of was a space that truly centred mothers&apos; wellbeing (aside from some lovely postnatal yoga classes).
                   Even then, it could be hard to fully focus. Juggling the class while tending to your baby often meant
                   missing out on the experience.
                 </p>
                 <p className="text-lg leading-relaxed text-[#f1e7da] [text-shadow:0_2px_9px_rgba(0,0,0,0.28)]">
-                  Bloom & Baby was created to fill that gap. I wanted to offer a calm, nature-based parent and baby group in
-                  Bath where parents could slow down, overwhelm could soften, connection could happen naturally, and small,
+                  Bloom & Baby was created to fill that gap. I wanted to offer a calm, nature-based mum and baby group in
+                  Bath where mothers could slow down, overwhelm could soften, connection could happen naturally, and small,
                   achievable moments could restore confidence.
                 </p>
                 <p className="text-lg leading-relaxed text-[#f1e7da] [text-shadow:0_2px_9px_rgba(0,0,0,0.28)]">
                   If your baby needs feeding, settling, or just a cuddle, you will not miss out. Activities are designed
-                  to be flexible and can be enjoyed at the parent&apos;s own pace, without a strict routine.
+                  to be flexible and can be enjoyed at the mother&apos;s own pace, without a strict routine.
                 </p>
               </div>
             </div>
@@ -89,8 +89,8 @@ const AboutPage: React.FC = () => {
         <section className="mt-14 border-t border-stone-200/35 pt-10">
           <p className="font-editorial text-2xl italic leading-relaxed text-[#f5eee2] md:text-3xl [text-shadow:0_2px_10px_rgba(0,0,0,0.3)]">
             Bloom & Baby brings together gentle gardening, mindful moments, and baby-friendly nature sensory play in a
-            way that supports postnatal wellbeing, reduces isolation, and helps parents feel more grounded and supported
-            during early parenthood.
+            way that supports postnatal wellbeing, reduces isolation, and helps mums feel more grounded and supported
+            during early motherhood.
           </p>
         </section>
       </div>

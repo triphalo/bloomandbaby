@@ -11,8 +11,8 @@ const faqItems: FAQItem[] = [
   {
     question: 'What is Bloom & Baby?',
     paragraphs: [
-      'We offer calming gardening sessions focused on parental wellbeing, connection with nature, and simple, achievable tasks while babies explore safely by your side.',
-      'Our sessions are as much about nurturing parents as they are about introducing babies to nature.',
+      'We offer calming gardening sessions focused on maternal wellbeing, connection with nature, and simple, achievable tasks while babies explore safely by your side.',
+      'Our sessions are as much about nurturing mums as they are about introducing babies to nature.',
     ],
   },
   {
@@ -20,7 +20,7 @@ const faqItems: FAQItem[] = [
     intro: 'Spring Term 2 sessions are running:',
     bullets: ['Mondays and Tuesdays', '10:30 to 12:00'],
     paragraphs: [
-      'To begin with, each session is limited to 6 parents to keep the space calm and supportive.',
+      'To begin with, each session is limited to 6 mums to keep the space calm and supportive.',
       'Information about future terms will be released closer to the time.',
     ],
   },
@@ -50,7 +50,7 @@ const faqItems: FAQItem[] = [
       'Sowing and planting according to the season, with continuity and progression for plants through the term.',
       'Baby sensory nature play.',
       'Take-home plants or creations every week.',
-      'A supportive group of parents.',
+      'A supportive group of mums.',
       'A small celebration at the end of the programme.',
     ],
   },
@@ -58,15 +58,9 @@ const faqItems: FAQItem[] = [
     question: 'Who are the sessions for?',
     intro: 'Bloom & Baby sessions are for:',
     bullets: [
-      'Mothers or fathers with babies aged 0-11 months: if your baby is content resting in a sling, pram, or bouncy chair, or a mix of all three, this space is perfect for you. Mobile babies are welcome too, as long as you feel you can still get something out of the session. There is also the option to use a highchair if they need to have a nosh on something.',
-      'New mothers or fathers on parental leave.',
-      'Mothers or fathers looking for calm, connection, and community.',
-    ],
-  },
-  {
-    question: "I'm a dad. Can I join too?",
-    paragraphs: [
-      'Yes. Bloom & Baby mainly focuses on mothers and maternal wellbeing, but fathers are welcome too. The sessions are also a space for paternal wellbeing: time outdoors, simple seasonal activities, and a chance to connect with your baby and other parents.',
+      'Mothers with babies aged 0-9 months: if your baby is content resting in a sling, pram, or bouncy chair, or a mix of all three, this space is perfect for you. There is also the option to pop them into a play pen with sensory toys if they need to wriggle.',
+      'New mums on maternity leave.',
+      'Mothers looking for calm, connection, and community.',
     ],
   },
   {
@@ -93,7 +87,7 @@ const faqItems: FAQItem[] = [
     paragraphs: [
       'That is completely expected and completely welcome.',
       'Babies can be fed, changed, worn, soothed, or left to explore at any point during the session. There is no pressure to participate constantly. Do what you can, when you can, and I am always on hand to help too.',
-      'Bloom & Baby is a space where the realities of parenthood are welcomed, not managed.',
+      'Bloom & Baby is a space where the realities of motherhood are welcomed, not managed.',
     ],
   },
   {
@@ -123,7 +117,7 @@ const faqItems: FAQItem[] = [
   {
     question: 'Can I try a session before committing?',
     paragraphs: [
-      'Yes. Many parents start with a single drop-in session to see if it feels right for them.',
+      'Yes. Many mums start with a single drop-in session to see if it feels right for them.',
       "If you decide afterwards that you would like to continue for the full term, I can offer a special rate so you only pay for the remaining sessions in that term.",
     ],
   },
@@ -154,7 +148,7 @@ const faqItems: FAQItem[] = [
     question: 'Is Bloom & Baby a replacement for medical or mental health support?',
     paragraphs: [
       'No. Bloom & Baby is a wellbeing and community-based offering and does not replace medical, mental health, or postnatal care.',
-      'However, many parents find the sessions deeply supportive alongside other care.',
+      'However, many mums find the sessions deeply supportive alongside other care.',
     ],
   },
   {
