@@ -36,11 +36,13 @@ const faqItems: FAQItem[] = [
     question: 'How much does it cost?',
     bullets: [
       '£20 for a drop-in session',
-      '£72 for a 4 Session bundle',
-      '£87.50 for a 5 Session bundle',
-      '£102 for a 6 Session bundle',
+      '£36 for a 2-session bundle',
+      '£70 for a 4-session bundle',
+      '£102 for a 6-session bundle',
     ],
-    paragraphs: ['You can attend single sessions or commit to the term. Both options are welcome.'],
+    paragraphs: [
+      'You can attend a single session, or choose the bundle that suits you and then let me know the dates you’d like to attend.',
+    ],
   },
   {
     question: 'What is included in the full term programme?',
