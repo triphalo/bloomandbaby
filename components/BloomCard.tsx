@@ -35,6 +35,26 @@ const BloomCard: React.FC = () => {
               </div>
               
               <div className="w-full max-w-md self-start md:-mt-14">
+                <div className="border-b border-stone-200/30 pb-8 mb-8">
+                  <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Wild Winter Walks</p>
+                  <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
+                    A chance to wrap up warm, pop the babies in backpacks or slings, and head out for a bracing walk together.
+                  </p>
+                  <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
+                    There’ll be a hot cuppa en route, a tasty snack, and — who knows — maybe even a pint in the pub if we’re lucky.
+                  </p>
+                  <div className="mt-5">
+                    <a
+                      href="https://buytickets.at/bloombaby/2472527"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
+                    >
+                      Reserve Your Space
+                    </a>
+                  </div>
+                </div>
+
                 <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Autumn Term</p>
                 <p className="mt-2 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
                   Sessions run from 14th of September through to 3rd of November.
