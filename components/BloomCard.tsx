@@ -76,7 +76,7 @@ const BloomCard: React.FC = () => {
                     </div>
                     <div>
                       <a
-                        href="https://buytickets.at/bloombaby/2521883"
+                        href="https://www.tickettailor.com/events/bloombaby/2521883"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
