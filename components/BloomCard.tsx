@@ -55,6 +55,41 @@ const BloomCard: React.FC = () => {
                   </div>
                 </div>
 
+                <div className="border-b border-stone-200/30 pb-8 mb-8">
+                  <h2 className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Festive Wreath Making</h2>
+                  <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
+                    Join me for some festive making and good company, and create a beautiful wreath to take home. Babies are welcome at both workshops, or come along on your own if you have childcare.
+                  </p>
+                  <div className="mt-5 space-y-5">
+                    <div>
+                      <a
+                        href="https://www.foxandkitcafe.com/event-details/festive-wreath-making-workshop-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
+                      >
+                        Fox &amp; Kit · 29 November
+                      </a>
+                      <p className="mt-2 text-[#efe5d8] text-base leading-relaxed">
+                        Sunday, 3–5pm · The Den, Midsomer Norton · £40 per person. Drinks and snacks available to purchase separately.
+                      </p>
+                    </div>
+                    <div>
+                      <a
+                        href="https://buytickets.at/bloombaby/2521883"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
+                      >
+                        Dunkerton Parish Hall · 7 December
+                      </a>
+                      <p className="mt-2 text-[#efe5d8] text-base leading-relaxed">
+                        Monday, 10:30am–12:30pm · Dunkerton, Bath BA2 8BG · £40 per person. Includes a festive treat, tea and coffee, and hot mulled cider or apple juice.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
                 <div>
                   <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Spring 2027 Term</p>
                   <p className="mt-2 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
