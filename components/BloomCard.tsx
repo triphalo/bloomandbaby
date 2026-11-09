@@ -10,21 +10,19 @@ const BloomCard: React.FC = () => {
       {/* Section 1: Hero - Full Screen Typography */}
       <section className="min-h-screen flex flex-col justify-center px-8 md:px-24 lg:px-48 py-24">
         <div className="max-w-6xl w-full animate-in fade-in slide-in-from-bottom-12 duration-1000">
-          <div className="space-y-20">
+          <div className="space-y-8">
             <div className="space-y-8">
               <h1 className="font-editorial text-7xl md:text-9xl lg:text-[12rem] font-light tracking-tighter leading-[0.85] text-[#FCFBF7] [text-shadow:0_4px_18px_rgba(0,0,0,0.42)]">
                 Bloom <br />
                 <span className="italic ml-[0.1em] md:ml-[0.2em]">& Baby</span>
               </h1>
-              <div className="max-w-xl">
-                <p className="font-editorial italic text-2xl md:text-3xl text-[#f1e8db] font-light leading-snug [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  A restorative space for mums and babies to grow together in the heart of nature.
-                </p>
-              </div>
             </div>
 
             <div className="flex flex-col md:flex-row md:items-start justify-between gap-16">
               <div className="space-y-8 max-w-lg text-[#f2eadf] text-xl md:text-2xl leading-relaxed font-light [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
+                <p className="font-editorial italic text-2xl md:text-3xl text-[#f1e8db] font-light leading-snug [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
+                  A restorative space for mums and babies to grow together in the heart of nature.
+                </p>
                 <p>Bloom & Baby is a nurturing community for mums and their babies.</p>
                 <p>
                   Designed for early motherhood, when babies are small enough to rest, be carried, or explore close by.
@@ -34,7 +32,7 @@ const BloomCard: React.FC = () => {
                 </p>
               </div>
               
-              <div className="w-full max-w-md self-start md:-mt-14">
+              <div className="w-full max-w-md self-start">
                 <div className="border-b border-stone-200/30 pb-8 mb-8">
                   <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Wild Winter Walks</p>
                   <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
