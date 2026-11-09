@@ -66,12 +66,12 @@ const BloomCard: React.FC = () => {
                         href="https://www.foxandkitcafe.com/event-details/festive-wreath-making-workshop-1"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
+                        className="inline-flex items-center justify-center border border-[#b79091]/80 bg-[#754d50] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#633e42]"
                       >
                         Fox &amp; Kit · 29 November
                       </a>
                       <p className="mt-2 text-[#efe5d8] text-base leading-relaxed">
-                        Sunday, 3–5pm · The Den, Midsomer Norton · £40 per person. Drinks and snacks available to purchase separately.
+                        Sunday, 3–5pm · The Den, 5–8 Holly Court, Midsomer Norton, Radstock BA3 2DB.
                       </p>
                     </div>
                     <div>
@@ -79,12 +79,12 @@ const BloomCard: React.FC = () => {
                         href="https://www.tickettailor.com/events/bloombaby/2521883"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
+                        className="inline-flex items-center justify-center border border-[#b79091]/80 bg-[#754d50] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#633e42]"
                       >
                         Dunkerton Parish Hall · 7 December
                       </a>
                       <p className="mt-2 text-[#efe5d8] text-base leading-relaxed">
-                        Monday, 10:30am–12:30pm · Dunkerton, Bath BA2 8BG · £40 per person. Includes a festive treat, tea and coffee, and hot mulled cider or apple juice.
+                        Monday, 10:30am–12:30pm · Dunkerton, Bath BA2 8BG.
                       </p>
                     </div>
                   </div>
@@ -102,7 +102,8 @@ const BloomCard: React.FC = () => {
                     {!isSubscribed ? (
                       <SignupForm
                         onComplete={() => setIsSubscribed(true)}
-                        submitLabel="Join the newsletter"
+                        submitLabel="Join the Newsletter"
+                        buttonVariant="sage"
                         loadingLabel="Subscribing..."
                         placeholder="Your email address"
                         className="max-w-md"

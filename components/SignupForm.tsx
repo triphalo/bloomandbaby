@@ -7,6 +7,7 @@ interface SignupFormProps {
   loadingLabel?: string;
   placeholder?: string;
   className?: string;
+  buttonVariant?: 'text' | 'sage';
   tone?: 'dark' | 'light';
 }
 
@@ -16,6 +17,7 @@ const SignupForm: React.FC<SignupFormProps> = ({
   loadingLabel = 'One moment...',
   placeholder = 'Email address',
   className = '',
+  buttonVariant = 'text',
   tone = 'dark',
 }) => {
   const [email, setEmail] = useState('');
@@ -110,7 +112,9 @@ const SignupForm: React.FC<SignupFormProps> = ({
       : 'form-control w-full bg-transparent border-b border-stone-300/60 py-4 text-[#fcfbf7] focus:outline-none focus:border-white/80 transition-all duration-700 placeholder:text-stone-400 font-light text-xl';
 
   const buttonClass =
-    tone === 'light'
+    buttonVariant === 'sage'
+      ? 'w-full md:w-auto self-start inline-flex items-center justify-center gap-4 border border-[#a8af95]/80 bg-[#7d886d] px-7 py-4 text-[#f7f4ec] font-editorial text-2xl transition-colors hover:bg-[#6f7a60] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#a8af95] disabled:opacity-50 disabled:cursor-not-allowed group'
+      : tone === 'light'
       ? 'w-full md:w-auto self-start px-0 py-2 text-[#2f271e] font-editorial text-xl transition-all duration-500 disabled:opacity-50 disabled:cursor-not-allowed group flex items-center space-x-4 border-b border-transparent hover:border-[#7f684f]'
       : 'w-full md:w-auto self-start px-0 py-2 text-[#fcfbf7] font-editorial text-xl transition-all duration-500 disabled:opacity-50 disabled:cursor-not-allowed group flex items-center space-x-4 border-b border-transparent hover:border-white/60';
 
