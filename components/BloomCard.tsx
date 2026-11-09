@@ -55,46 +55,13 @@ const BloomCard: React.FC = () => {
                   </div>
                 </div>
 
-                <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Autumn Term</p>
-                <p className="mt-2 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  Sessions run from 14th of September through to 3rd of November.
-                </p>
-                <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                  Ready to join us? Reserve your space here:
-                </p>
-                <div className="mt-5">
-                  <div className="tt-widget">
-                    <div className="tt-widget-fallback">
-                      <p>
-                        <a
-                          href="https://www.tickettailor.com/all-tickets/bloombaby/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
-                        >
-                          Reserve your space
-                        </a>
-                      </p>
-                    </div>
-                    <script
-                      src="https://cdn.tickettailor.com/js/widgets/min/widget.js"
-                      data-url="https://www.tickettailor.com/all-tickets/bloombaby/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true"
-                      data-type="inline"
-                      data-inline-minimal="true"
-                      data-inline-show-logo="false"
-                      data-inline-bg-fill="false"
-                      data-inline-inherit-ref-from-url-param=""
-                      data-inline-ref="website_widget"
-                    ></script>
-                  </div>
-                </div>
-
-                <div className="mt-10 border-t border-stone-200/30 pt-8">
-                  <p className="font-editorial text-2xl italic text-[#fcf7ef] leading-snug [text-shadow:0_2px_10px_rgba(0,0,0,0.3)]">
-                    Join the newsletter for new term releases and updates.
+                <div>
+                  <p className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Spring 2027 Term</p>
+                  <p className="mt-2 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
+                    Spring 2027 term dates will be announced soon.
                   </p>
                   <p className="mt-3 text-[#eadccc] text-base leading-relaxed [text-shadow:0_2px_8px_rgba(0,0,0,0.25)]">
-                    No noise, just useful news for upcoming dates and events.
+                    Interested in joining us? Sign up for the newsletter to be the first to hear when dates are released and booking opens, so you can reserve your space.
                   </p>
                   <div className="w-full pt-4">
                     {!isSubscribed ? (
