@@ -43,9 +43,9 @@ const BloomCard: React.FC = () => {
                       href="https://buytickets.at/bloombaby/2535115"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center border border-[#a8af95]/80 bg-[#7d886d] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#6f7a60]"
+                      className="inline-flex items-center justify-center border border-[#b79091]/80 bg-[#754d50] px-5 py-2.5 font-editorial text-xl italic text-[#f7f4ec] transition hover:bg-[#633e42]"
                     >
-                      Book Cosy Winter Craftiness
+                      Reserve your space
                     </a>
                   </div>
                 </div>
