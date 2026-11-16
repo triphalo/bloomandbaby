@@ -220,11 +220,6 @@ const BloomCard: React.FC = () => {
         <div className="max-w-7xl w-full mx-auto space-y-32">
           <div className="flex flex-col md:flex-row justify-between items-start gap-12 md:gap-24 border-b border-stone-200/30 pb-24">
             <div className="space-y-4">
-              <p className="text-[#d9c8b1] uppercase tracking-widest text-xs">When</p>
-              <h3 className="font-editorial text-4xl md:text-5xl lg:text-6xl text-[#fcf7ef] italic [text-shadow:0_2px_8px_rgba(0,0,0,0.3)]">Spring 2026</h3>
-              <p className="text-[#eadccc] text-lg [text-shadow:0_2px_8px_rgba(0,0,0,0.25)]">Weekday mornings</p>
-            </div>
-            <div className="space-y-4">
               <p className="text-[#d9c8b1] uppercase tracking-widest text-xs">Where</p>
               <h3 className="font-editorial text-4xl md:text-5xl lg:text-6xl text-[#fcf7ef] [text-shadow:0_2px_8px_rgba(0,0,0,0.3)]">Bath</h3>
               <p className="text-[#eadccc] text-lg [text-shadow:0_2px_8px_rgba(0,0,0,0.25)]">Just outside the city</p>
