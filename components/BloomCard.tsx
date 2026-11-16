@@ -36,13 +36,7 @@ const BloomCard: React.FC = () => {
                 <div className="border-b border-stone-200/30 pb-8 mb-8">
                   <h2 className="text-[#fcf7ef] font-editorial text-3xl italic leading-tight [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">Cosy Winter Craftiness</h2>
                   <p className="mt-3 text-[#efe5d8] text-lg leading-relaxed [text-shadow:0_2px_10px_rgba(0,0,0,0.35)]">
-                    Four cosy weeks of festive, garden-inspired making with your baby alongside you. Create Christmas bulb pots, twig stars, pressed-leaf lanterns and botanical clay decorations — lovely to keep or give as handmade gifts. No crafting experience needed, just come for creativity, company, tea, coffee and a bake of the week.
-                  </p>
-                  <p className="mt-3 text-[#efe5d8] text-base leading-relaxed">
-                    Mondays, 10:30am–12 noon · Starting 23 November · Dunkerton Parish Hall, Bath BA2 8BG.
-                  </p>
-                  <p className="mt-3 text-[#efe5d8] text-base leading-relaxed">
-                    On the third Monday, 7 December, the wreath-making workshop takes the place of a regular craft session. Tickets for that workshop are sold separately and are not included in the four-week craft term.
+                    Four cosy weeks of festive, garden-inspired making with your baby alongside you. Enjoy creativity, company and handmade gifts to keep or give — no crafting experience needed.
                   </p>
                   <div className="mt-5">
                     <a
