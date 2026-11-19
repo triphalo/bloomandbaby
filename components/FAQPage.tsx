@@ -17,8 +17,11 @@ const faqItems: FAQItem[] = [
   },
   {
     question: 'When do sessions run?',
-    intro: 'Spring Term 2 sessions are running:',
-    bullets: ['Mondays and Tuesdays', '10:30 to 12:00'],
+    intro: 'Sessions run on Mondays and Tuesdays:',
+    bullets: [
+      'Cosy Winter Craftiness: Mondays, 10:30am–12 noon',
+      'Wild Winter Walks: Tuesdays, 10:30am–12 noon',
+    ],
     paragraphs: [
       'To begin with, each session is limited to 6 mums to keep the space calm and supportive.',
       'Information about future terms will be released closer to the time.',
