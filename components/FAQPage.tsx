@@ -11,7 +11,7 @@ const faqItems: FAQItem[] = [
   {
     question: 'What is Bloom & Baby?',
     paragraphs: [
-      'We offer calming gardening sessions focused on maternal wellbeing, connection with nature, and simple, achievable tasks while babies explore safely by your side.',
+      'We offer calming gardening/crafting sessions focused on maternal wellbeing, connection with nature, and simple, achievable tasks while babies explore safely by your side.',
       'Our sessions are as much about nurturing mums as they are about introducing babies to nature.',
     ],
   },
