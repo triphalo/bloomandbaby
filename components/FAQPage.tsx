@@ -44,7 +44,7 @@ const faqItems: FAQItem[] = [
     ],
   },
   {
-    question: 'Do I need gardening experience?',
+    question: 'Do I need gardening/crafting experience?',
     paragraphs: [
       'Not at all.',
       'All activities are beginner-friendly, guided, and focused on enjoyment rather than perfection. The aim is to leave feeling calmer and more confident.',
@@ -56,7 +56,7 @@ const faqItems: FAQItem[] = [
     bullets: [
       'Welcome and settling time (with refreshment).',
       'Short grounding or mindful moment.',
-      'A simple gardening activity.',
+      'A simple gardening/crafting activity.',
       'Baby-friendly nature sensory play.',
       'A take-home plant or creation.',
     ],
@@ -87,7 +87,7 @@ const faqItems: FAQItem[] = [
     bullets: [
       'Yourself.',
       'Your baby (and all their accessories).',
-      'Weather-appropriate clothing (old clothes, warm layers, sun hats, etc.).',
+      'Weather-appropriate clothing (if we are outdoors), such as old clothes, warm layers, sun hats, etc.',
     ],
     paragraphs: [
       'Everything else, including tools, materials, plants, and refreshments, is provided.',
