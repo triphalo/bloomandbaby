@@ -22,10 +22,6 @@ const faqItems: FAQItem[] = [
       'Cosy Winter Craftiness: Mondays, 10:30am–12 noon',
       'Wild Winter Walks: Tuesdays, 10:30am–12 noon',
     ],
-    paragraphs: [
-      'To begin with, each session is limited to 6 mums to keep the space calm and supportive.',
-      'Information about future terms will be released closer to the time.',
-    ],
   },
   {
     question: 'Where do the sessions take place?',
