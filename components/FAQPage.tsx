@@ -38,7 +38,7 @@ const faqItems: FAQItem[] = [
     question: 'Who are the sessions for?',
     intro: 'Bloom & Baby sessions are for:',
     bullets: [
-      'Mothers with babies aged 0-9 months: if your baby is content resting in a sling, pram, or bouncy chair, or a mix of all three, this space is perfect for you. There is also the option to pop them into a play pen with sensory toys if they need to wriggle.',
+      'Mothers with babies aged 0–1 year: if your baby is content resting in a sling, pram, or bouncy chair, or a mix of all three, this space is perfect for you. There is also the option to pop them into a play pen with sensory toys if they need to wriggle.',
       'New mums on maternity leave.',
       'Mothers looking for calm, connection, and community.',
     ],
