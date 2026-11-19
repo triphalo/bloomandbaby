@@ -30,33 +30,8 @@ const faqItems: FAQItem[] = [
   {
     question: 'Where do the sessions take place?',
     paragraphs: [
-      'Sessions take place in Withyditch near Bath.',
-      "Location details and directions are shared after you reserve your place so it is easy to find us on the day.",
-      'We use an outdoor garden space where possible, with cover or indoor alternatives for wet or unsuitable weather.',
-    ],
-  },
-  {
-    question: 'How much does it cost?',
-    bullets: [
-      '£20 for a drop-in session',
-      '£36 for a 2-session bundle',
-      '£70 for a 4-session bundle',
-      '£102 for a 6-session bundle',
-    ],
-    paragraphs: [
-      'You can attend a single session, or choose the bundle that suits you and then let me know the dates you’d like to attend.',
-    ],
-  },
-  {
-    question: 'What is included in the full term programme?',
-    intro: 'The 6-week Bloom & Baby programme includes:',
-    bullets: [
-      'Weekly themed wellbeing and gardening sessions.',
-      'Sowing and planting according to the season, with continuity and progression for plants through the term.',
-      'Baby sensory nature play.',
-      'Take-home plants or creations every week.',
-      'A supportive group of mums.',
-      'A small celebration at the end of the programme.',
+      'Cosy Winter Craftiness takes place at Dunkerton Parish Hall, Dunkerton, Bath BA2 8BG.',
+      'Wild Winter Walks take place in various locations. Meeting-point details and directions are shared after you reserve your place.',
     ],
   },
   {
